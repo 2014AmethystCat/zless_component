@@ -1,9 +1,5 @@
 // =============================================
-// @des:            zless
-// @author:       	Busy
-// @url:            www.aibusy.com
-// @time:           2013-12-08
-// @lastTime     	2014-03-08
+// @lastTime     	2015-03-08
 // @version       	0.3 beta
 // =============================================
 
@@ -674,4 +670,13 @@
     .metroX(@gridColumnWidth, @gridGutterWidth);
   }
 
+}
+
+
+/*组件的mixin*/
+// button sizes
+.buttion-size(@padding-vertival, @padding-horizontal; @font-size; @line-height; @border-radius){
+  padding: @padding-vertival @padding-horizontal;
+  font-size: @line-height;
+  border-radius: @border-radius;
 }
